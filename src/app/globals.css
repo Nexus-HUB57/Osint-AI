@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+html, body { height: 100%; }
+
+body {
+  background: #020617;
+  color: #e2e8f0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.console-scroll::-webkit-scrollbar { width: 8px; height: 8px; }
+.console-scroll::-webkit-scrollbar-track { background: #020617; }
+.console-scroll::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }

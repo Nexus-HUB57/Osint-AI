@@ -1,0 +1,5 @@
+{
+  "crons": [
+    { "path": "/api/cron/audit-export", "schedule": "0 */6 * * *" }
+  ]
+}
